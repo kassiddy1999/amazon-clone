@@ -1,6 +1,7 @@
 import React from 'react';
 import { __esModule } from 'react-router-dom/cjs/react-router-dom.min';
 import './Product.css';
+<<<<<<< HEAD
 import { useStateValue } from "./StateProvider";
 
 function Product({ id, title, image, price, rating }) {
@@ -19,6 +20,10 @@ function Product({ id, title, image, price, rating }) {
             }
         })
     }
+=======
+
+function Product({ id, title, image, price, rating }) {
+>>>>>>> main
     return (
         <div className = "product">
             <div className = "product_info">
@@ -38,7 +43,11 @@ function Product({ id, title, image, price, rating }) {
            </div>
             </div>
            <img src = { image } alt = ""></img>
+<<<<<<< HEAD
            <button onClick = { addToBasket }>Add to basket</button>
+=======
+           <button>Add to basket</button>
+>>>>>>> main
         </div>
     )
 }
