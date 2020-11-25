@@ -1,0 +1,11 @@
+.checkout {
+    margin: 0 auto;
+    max-width: 1800px;
+}
+
+.checkout_ad {
+    width: 100%;
+    height: 20vh;
+    margin-bottom: 10px;
+    
+}
