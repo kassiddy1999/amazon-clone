@@ -1,7 +1,7 @@
 import React from 'react';
 import { useStateValue } from "./StateProvider";
 import CheckoutProduct from './CheckoutProduct';
-import './Checkout.css'
+import './Checkout.css';
 
 function Checkout() {
     const [{ basket }] = useStateValue();
@@ -27,9 +27,7 @@ function Checkout() {
                 price = { item.price }
                 rating = { item.rating }
                 />
-               
             ))}
-            
         </div>
     )}
             </div>
