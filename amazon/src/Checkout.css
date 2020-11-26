@@ -1,6 +1,15 @@
 .checkout {
-    margin: 0 auto;
-    max-width: 1800px;
+    max-width: 1700px;
+    display: flex;
+    padding: 20px;
+    background-color: #fff;
+    height: max-content;
+}
+
+.checkout_title {
+    margin-right: 10px;
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
 }
 
 .checkout_ad {
@@ -9,3 +18,12 @@
     margin-bottom: 10px;
     
 }
+
+.checkout_left {
+    flex: 1;
+}
+
+.checkout_right {
+   max-width: 200px;
+}
+
