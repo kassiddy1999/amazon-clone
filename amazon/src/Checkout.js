@@ -6,7 +6,7 @@ import Subtotal from './Subtotal';
 import './Checkout.css';
 
 function Checkout() {
-    const [{ basket }] = useStateValue();
+    const [{ basket }] = useStateValue();this is good
 
     return (
         <div className = "checkout">
@@ -42,4 +42,4 @@ function Checkout() {
     )
 }
 
-export default Checkout this is aweso
+export default Checkout
