@@ -14,12 +14,13 @@ function App() {
           <Route path = "/checkout">
             <Header />
             <Checkout />
-
           </Route>
+
           <Route path = "/login">
             <Header />
             <Login />
           </Route>
+          
           <Route path = "/">
             <Header />
             <Home />
